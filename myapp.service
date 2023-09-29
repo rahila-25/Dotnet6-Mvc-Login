@@ -1,0 +1,12 @@
+[Unit]
+Description=My .NET Application
+
+[Service]
+ExecStart=/usr/bin/dotnet /var/www/myapp/Dotnet6MvcLogin.dll
+WorkingDirectory=/var/www/myapp
+Restart=always
+RestartSec=10
+SyslogIdentifier=myapp
+
+[Install]
+WantedBy=multi-user.target
