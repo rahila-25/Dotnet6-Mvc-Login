@@ -1,4 +1,4 @@
 #!/bin/bash
-#sudo systemctl daemon-reload
-#sudo systemctl enable myapp.service
-#sudo systemctl start myapp.service
+sudo systemctl daemon-reload
+sudo systemctl enable myapp.service
+sudo systemctl start myapp.service
