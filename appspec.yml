@@ -21,6 +21,6 @@ hooks:
       timeout: 180
       runas: root
   ApplicationStart:
-     - location: scripts/start_service.sh
+    - location: scripts/start_service.sh
       timeout: 180
       runas: root
