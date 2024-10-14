@@ -2,7 +2,6 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
-#command
 
 namespace Dotnet6MvcLogin.Migrations
 {
